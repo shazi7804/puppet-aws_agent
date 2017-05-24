@@ -32,6 +32,15 @@ All parameters for the ntp module are contained within the main `::aws_agent` cl
 include '::aws_agent'
 ```
 
+### Configuring AWS Agent to Use a Proxy
+
+```puppet
+class { '::aws_agent':
+  http_proxy  => 'http://change.proxy.com:3128',
+  no_proxy    => '169.254.169.254',
+}
+```
+
 ## Reference
 
 ### Classes
@@ -48,16 +57,6 @@ include '::aws_agent'
 ## Parameters
 
 The following parameters are available in the `::aws_agent` class:
-
-#### `aws_agent_url`
-
-Optional.
-
-Data type: String.
-
-The ssm agent download url
-
-Default value: `https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/$OS_VER/amazon-ssm-agent.{dev,rpm}`.
 
 #### `aws_agent_download_url`
 
