@@ -3,10 +3,10 @@
 #### Table of Contents
 
 1. [Description](#description)
-1. [Setup - The basics of getting started with ssm_agent](#setup)
-    * [What ssm_agent affects](#what-ssm_agent-affects)
+1. [Setup - The basics of getting started with aws_agent](#setup)
+    * [What aws_agent affects](#what-aws_agent-affects)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with ssm_agent](#beginning-with-ssm_agent)
+    * [Beginning with aws_agent](#beginning-with-aws_agent)
 1. [Usage - Configuration options and additional functionality](#usage)
 1. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 1. [Limitations - OS compatibility, etc.](#limitations)
@@ -64,7 +64,7 @@ Optional.
 
 Data type: String.
 
-The ssm agent download url
+The aws agent download url
 
 Default value: `https://d1wk0tztpsntt1.cloudfront.net/linux/latest/install`
 
