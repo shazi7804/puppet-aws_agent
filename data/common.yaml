@@ -7,3 +7,4 @@ aws_agent::no_proxy: ~
 aws_agent::package_name: 'awsagent'
 aws_agent::manage_service: true
 aws_agent::service_name: 'awsagent'
+aws_agent::awsagent_bin: '/opt/aws/awsagent/bin/awsagent'
