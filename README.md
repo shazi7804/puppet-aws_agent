@@ -86,4 +86,4 @@ Data type: String.
 
 Connect timeout use of agents to download the source code
 
-Default value: `3`
+Default value: `60`
