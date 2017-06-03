@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/shazi7804/puppet-aws_agent.svg?branch=master)](https://travis-ci.org/shazi7804/puppet-aws_agent)
 # aws_agent
+[![Build Status](https://travis-ci.org/shazi7804/puppet-aws_agent.svg?branch=master)](https://travis-ci.org/shazi7804/puppet-aws_agent)
 
 #### Table of Contents
 
