@@ -1,3 +1,0 @@
-fixtures:
-  symlinks:
-    "aws_agent": "#{source_dir}"

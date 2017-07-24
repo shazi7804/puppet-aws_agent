@@ -7,11 +7,11 @@
   "source": "https://github.com/shazi7804/puppet-aws_agent",
   "project_page": "https://github.com/shazi7804/puppet-aws_agent",
   "issues_url": "https://github.com/shazi7804/puppet-aws_agent/issues",
+    "tags": [
+    "aws",
+    "aws_agent"
+  ],
   "dependencies": [
-    {
-      "name":"puppetlabs-stdlib",
-      "version_requirement":"4.x"
-    }
   ],
   "operatingsystem_support": [
     {
