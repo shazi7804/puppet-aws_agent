@@ -10,8 +10,8 @@ class aws_agent::service inherits aws_agent {
       }
       'RedHat': {
         service { $aws_agent::service_name:
-          ensure    => running,          
-          require   => Class['aws_agent::install'],
+          ensure  => running,
+          require => Class['aws_agent::install'],
         }
       }
       default: {
